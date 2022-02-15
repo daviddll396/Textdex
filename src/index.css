@@ -1,0 +1,323 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: poppins, Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  
+  
+  
+}
+
+svg{
+  fill:#1890FF;
+}
+
+html,body{
+  padding-bottom:0px !important;
+  margin-bottom:0px !important;
+}
+
+
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #303741;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: #1890FF;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+
+#login-page {
+  background-color:#0d1117;
+  color:white;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-card {
+  position: relative;
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  background-color: #303741;
+  border-radius: 22px;
+  transition:all 0.2s ease;
+}
+
+
+.logo{
+  padding-bottom:30px;
+  font-family:"poppins"
+
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+.loginbtnwidth{
+  width:80%;
+}
+
+.twitter {
+  background-color: #0d1117;
+  transition:all 0.2s ease;
+}
+
+.anticon-google svg{
+  fill:#F4B400;
+}
+.anticon-twitter svg{
+
+}
+.google {
+  background-color: #0d1117;
+  color: white;
+  fill:white;
+  transition:all 0.2s ease;
+}
+
+
+
+
+.google:hover,
+.google.active {
+  transform:scale(1.02);
+  transition:all 0.2s ease;
+  background-color:#DB4437;
+  color:black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
+
+.twitter:hover,
+.twitter.active{
+  transform:scale(1.02);
+  transition:all 0.2s ease;
+  background-color:#E1E8ED;
+  color:black;
+  fill:white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+
+
+
+
+
+
+
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
+
+
+@media (max-width: 500px) {
+  .loginbtnwidth{
+    width:70%;
+  }
+  #login-card {
+    position: relative;
+    padding-top: 36px;
+    padding-bottom: 66px;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    color:white;
+    border-radius: 22px;
+  }
+  .logo{
+    font-size:3rem;
+  }
+
+}
+
+
+
+
+.ce-primary-button{
+ background-color:#303741 !important;
+}
+.ce-chat-form-container,
+#ce-login-fail-breaker{
+  background-color:#0d1117 !important
+}
+.ce-chat-card,
+.ce-chat-card-loading{
+  background-color:#0d1117 !important;
+}
+.ce-message-bubble,
+.ce-avatar-dot{
+  background-color:#303741 !important;
+  margin: 0 3%;
+}
+#ce-login-fail-text,
+.ce-chat-subtitle-text{
+  background-color:#0d1117 !important;
+  color:white !important;
+}
+#ce-feed-container{
+  background-color:#0d1117 !important;
+}
+.ce-chat-feed-column,
+.ce-chats-container,
+.ce-input
+form{
+  background-color:#0d1117 !important;
+}
+
+.ce-chat-subtitle-text{
+  color:white !important;
+}
+a{
+  color:steelblue;
+}
+
+
+
+.ce-chat-engine,
+.ce-settings,
+#ce-chat-feed-title-undefined,
+.ce-chat-title-container,
+.ce-chat-list
+{
+  background-color:#0d1117 !important
+}
+
+
+.ce-section-title-container,
+#ce-options-drop-down,
+.ce-text-input,
+#ce-username-option,
+.ce-chat-title
+{
+  background-color:#0d1117 !important
+}
+
+.ql-editor{
+  background-color:#0d1117 !important;
+  
+}
+.ql-container{
+  border:1px solid #1890FF !important;
+  
+}
+#toolbar{
+  border:1px solid #1890FF !important;
+}
+
+
+#toolbar,
+.ce-active-chat-card{
+  background-color:#303741
+}
+
+
+#ce-send-message-button,
+#ce-add-username-input{
+  background-color:#0d1117 !important;
+  font-family:"poppins" !important;
+}
+
+.ce-message-date-text{
+  color:rgba(255, 255, 255, 1) !important;
+}
+
+element.style{
+  color:rgba(255, 255, 255, 1) !important;
+}
+
+
+
+.loading{
+  color:#303741;
+  font-family: "poppins" !important;
+  text-align:center;
+  margin-top:50%;
+  font-size:2rem;
+}
+
+
+
+#ce-ice-breaker-gif{
+  display:none;
+}
+
+.ce-input,
+.ce-person-text{
+  color:white;
+}
+
+
+.ce-their-message-sender{
+  color:white !important;
+  
+}
+
+.ce-their-message-bubble{
+  background-color:#196adb !important;
+}
